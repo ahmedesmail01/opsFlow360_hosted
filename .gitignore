@@ -1,0 +1,22 @@
+# Local secrets and connections
+.env
+.env.*
+!.env.example
+*.properties
+connections.xml
+wallet/
+
+# Generated and temporary files
+*.log
+*.tmp
+*.bak
+*.zip
+.DS_Store
+Thumbs.db
+
+# Local tool state
+.idea/
+.vscode/
+
+# Evidence may contain local generated output; screenshots are added explicitly
+docs/test-evidence/local/
